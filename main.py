@@ -56,9 +56,9 @@ async def start_handler(bot: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")],
-                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                 InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
+                [InlineKeyboardButton("Developer - @maheshgreat", url="https://t.me/maheshgreat")],
+                [InlineKeyboardButton("Support Group", url="https://t.me/Unknown_X_Leech"),
+                 InlineKeyboardButton("Main Channel", url="https://t.me/Unknown_X_Updates")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
                 [InlineKeyboardButton("Close", callback_data="closeMeh")]
             ]
@@ -363,7 +363,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         await cb.message.edit(
             text=Config.START_TEXT,
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer - @maheshgreat", url="https://t.me/maheshgreat"), InlineKeyboardButton("Support Group", url="https://t.me/Unknown_X_Leech")], [InlineKeyboardButton("Main Channel", url="https://t.me/Unknown_X_Updates")]]),
             disable_web_page_preview=True
         )
     elif "showThumbnail" in cb.data:
