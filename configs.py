@@ -11,8 +11,8 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
     LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
     DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
-    TIME_GAP = int(os.environ.get("TIME_GAP", 5))
-    MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 5))
+    TIME_GAP = int(os.environ.get("TIME_GAP", 1))
+    MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 15))
     STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
     MONGODB_URI = os.environ.get("MONGODB_URI")
@@ -23,9 +23,9 @@ class Config(object):
 Hi Unknownian, I am Video Merge Bot!
 I can Merge Multiple Videos in One Video. Video Formats should be same.
 
-Made by @majeshgreat
+Made by @maheshgreat
 """
-    CAPTION = "Video Merged by @{}\n\nMade by @AbirHasan2005"
+    CAPTION = "Video Merged by @{}\n\nMade by @maheshgreat"
     PROGRESS = """
 Percentage : {0}%
 Done: {1}
