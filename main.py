@@ -58,7 +58,7 @@ async def start_handler(bot: Client, m: Message):
             [
                 [InlineKeyboardButton("Developer - @maheshgreat", url="https://t.me/maheshgreat")],
                 [InlineKeyboardButton("Support Group", url="https://t.me/Unknown_X_Leech"),
-                 InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
+                 InlineKeyboardButton("Bots Channel", url="https://t.me/Unknown_X_Updates")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
                 [InlineKeyboardButton("Close", callback_data="closeMeh")]
             ]
