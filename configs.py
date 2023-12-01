@@ -17,8 +17,8 @@ class Config(object):
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
     MONGODB_URI = os.environ.get("MONGODB_URI")
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
-    BOT_OWNER = int(os.environ.get("BOT_OWNER", 1476002847)
-
+    BOT_OWNER = int(os.environ.get("BOT_OWNER", 1476002847))
+                   
     START_TEXT = """
 Hi Unknownian, I am Video Merge Bot!
 I can Merge Multiple Videos in One Video. Video Formats should be same.
